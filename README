@@ -1,0 +1,8 @@
+
+Am inceput implementarea temei cu liniile , pe care le-am construit parcurgand matricea și reținând
+valorile deja gasite in stari. Cand am ajuns la finalul inputului, am ignorat toate caracterele pana 
+am ajuns din nou la inceput. Am construit prima coloana, iar cand am ajuns la finalul inputului, am
+am construit pe a doua de jos in sus, pornind de la sfarsit. La fel am procedat si pentru coloanele 3 si 4.
+La finalul algoritmului pentru coloane, aflându-mă deja la inceputul inputului, am inceput cu regiunea 1
+si in aceeasi parcurgere am construit si celelalte regiuni folosindu-mă de stari in care am retinut atat 
+valorile ce se gaseau in regiunea anterioara, cat si cele pe care le cunosteam din regiunea curenta.
